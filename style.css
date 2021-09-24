@@ -420,22 +420,19 @@ nav.show div.icon-close {
 }
 
 /* swiper */
-.swiper-pagination {
-  position: relative;
-}
-
-.swiper-slide {
+.owl-slide {
   height: auto;
   padding: 4rem 1rem;
 }
 
-.swiper-pagination-bullet {
+#testimonials .container .owl-theme .owl-dots .owl-dot span {
   width: 0.75rem;
   height: 0.75rem;
+  background: var(--base-color);
 }
 
-.swiper-pagination-bullet-active {
-  background: var(--base-color);
+#testimonials .container .owl-theme .owl-dots .owl-dot.active span {
+  opacity: 0.6;
 }
 
 /*====  CONTACT ============================ */

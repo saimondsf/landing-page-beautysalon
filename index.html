@@ -9,11 +9,9 @@
     <!-- Icones -->
     <link rel="stylesheet" href="assets/fonts/style.css" />
 
-    <!-- Swiper -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+    <!-- Owl -->
+    <link rel="stylesheet" href="owl/style/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="owl/style/owl.carousel.min.css" />
 
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
@@ -156,65 +154,57 @@
           <header>
             <h2 class="title">Depoimentos de quem já passou por aqui</h2>
           </header>
-          <div class="testimonials swiper-container">
-            <div class="swiper-wrapper">
-              <div class="testimonial swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
-                    ipsam neque
-                  </p>
-                  <cite>
-                    <img
-                      src="assets/fotos/10.jpeg"
-                      alt="Foto de Wanessa Souza"
-                    />
-                    Wanessa Souza
-                  </cite>
-                </blockquote>
-              </div>
-
-              <div class="testimonial swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
-                    ipsam neque
-                  </p>
-                  <cite>
-                    <img
-                      src="assets/fotos/56.jpeg"
-                      alt="Foto de Franciele Venega"
-                    />
-                    Franciele Venega
-                  </cite>
-                </blockquote>
-              </div>
-
-              <div class="testimonial swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
-                    ipsam neque
-                  </p>
-                  <cite>
-                    <img
-                      src="assets/fotos/26.jpeg"
-                      alt="Fotos de Valeska Fabris"
-                    />
-                    Valeska Fabris
-                  </cite>
-                </blockquote>
-              </div>
+          <div class="owl-carousel owl-theme">
+            <div class="testimonial owl-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                  blanditiis saepe nam excepturi explicabo ipsa error ipsam
+                  neque
+                </p>
+                <cite>
+                  <img src="assets/fotos/10.jpeg" alt="Foto de Wanessa Souza" />
+                  Wanessa Souza
+                </cite>
+              </blockquote>
             </div>
 
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="testimonial owl-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                  blanditiis saepe nam excepturi explicabo ipsa error ipsam
+                  neque
+                </p>
+                <cite>
+                  <img
+                    src="assets/fotos/56.jpeg"
+                    alt="Foto de Franciele Venega"
+                  />
+                  Franciele Venega
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial owl-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                  blanditiis saepe nam excepturi explicabo ipsa error ipsam
+                  neque
+                </p>
+                <cite>
+                  <img
+                    src="assets/fotos/26.jpeg"
+                    alt="Fotos de Valeska Fabris"
+                  />
+                  Valeska Fabris
+                </cite>
+              </blockquote>
+            </div>
           </div>
         </div>
       </section>
@@ -275,8 +265,10 @@
 
     <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
 
-    <!-- swiper -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- owl -->
+    <script src="owl/scripts/jquery.min.js"></script>
+    <script src="owl/scripts/owl.carousel.min.js"></script>
+    <script src="owl/scripts/setup.js"></script>
 
     <!-- scrollreveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
